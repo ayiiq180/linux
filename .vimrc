@@ -13,7 +13,8 @@ syntax enable
 set background=dark
 colorscheme desert 
 set encoding=utf-8
-set fileencodings=utf-8,chinese,latin-1
+set fileencodings=utf-8
+set fileencodings=ucs-bom,utf-8,cp936,latin1
 "解决consle输出乱码 
 language messages zh_CN.utf-8
 call plug#begin('~/.vim/plugged')
